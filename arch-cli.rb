@@ -1,24 +1,24 @@
 class ArchCli < Formula
   desc "Command-line interface for Arch Network"
   homepage "https://github.com/Arch-Network/arch-node"
-  version "0.5.14"
+  version "0.5.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.14/arch-cli-aarch64-apple-darwin"
-      sha256 "b094296c1fc4588320e37049b9d22baf89f446372bf6fffdbed285c0daeb8ad9"
+      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.15/arch-cli-aarch64-apple-darwin"
+      sha256 "619fb908c4a167266bbee172ea73cdbb480752758a44a6d77819f98cce369c80"
     end
     on_intel do
-      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.14/arch-cli-x86_64-apple-darwin"
-      sha256 "cf8220a0f7cfc803d762f677fd0a7547a85bfe8de509e74fef973b523ac3081d"
+      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.15/arch-cli-x86_64-apple-darwin"
+      sha256 "c9be42061304530a2592c3f26b60b55528798e29a23fb5634abe29587a44b466"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.14/arch-cli-x86_64-unknown-linux-gnu"
-      sha256 "0a22a410d86da376ff90db0ce5cd4ea1ff16b2f2479e95578c43072df835b5ff"
+      url "https://github.com/Arch-Network/arch-node/releases/download/v0.5.15/arch-cli-x86_64-unknown-linux-gnu"
+      sha256 "0e5154376b638aea5bd249ab1c059c12d4cc1ad2bc68cc5507e79057cf5f69de"
     end
   end
 
